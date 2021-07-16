@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  
+  /* NAVBAR pisando bootstrap */
+  .navbar, .navbar-expand-lg, .navbar-light {
+    text-transform: uppercase;
+    display: flex;
+    background-color: #ffa500; }
+  
+  
+  .dropdown-menu {
+    background-color: #ffa500; }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffa500; }
+.consultas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.contacto{
+    width: 500px;
+    
+    }
+.titles__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
