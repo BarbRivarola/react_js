@@ -1,9 +1,10 @@
-function App () {
-    return <>
-    <NavBar>
-        <nav>
+//puedo hacer mis estilos en css e importar el archivo con import "./direccion"
+import "./navbar.css";
+function NavBar () {
+    return (
+        <nav className="navbar">
             <span>San Francisco</span>
-            <ul>
+            <ul className="menuNavbar">
                 <li>
                     Home
                 </li>
@@ -18,7 +19,9 @@ function App () {
                 </li>
             </ul>
         </nav>
-    </NavBar> 
 
-    </>   
+    ) 
+        
 }
+
+export default NavBar;
